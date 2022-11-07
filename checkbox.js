@@ -1,8 +1,4 @@
-$('input[type="radio"]').click(function(){    
-    
-    if ($('input[type=radio]:checked').length * 2 == $('input[type=radio]').length) {
-        $('#NEXT_PAGE').removeClass("apex_disabled");
-    }
+$('input[type="radio"]').click(function(){
     
     if ($(this).val() == 0) {
         apex.server.process(
