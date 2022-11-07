@@ -1,49 +1,30 @@
 $('input[type="radio"]').click(function(){
-    
-    if ($(this).val() == 0) {
-        apex.server.process(
-            'URL_DEVIATION',                           
-            {
-                x01: $(this).prop('name')
-            }, 
-            {
-                success: function (pData)
-                {           
-                    apex.navigation.redirect(pData);
-                },
-                dataType: "text"                     
-            }
-        );
-    } else {
-        apex.server.process(
-            'ANSWER_YES',                            
-            {
-                x01: $(this).prop('name'),
-            },
-            {
-                success: function (request) {  
-                    if( request == 200){					 
-                            
-                    }
-                    else{
-                        apex.message.clearErrors();
-                        apex.message.showErrors([ 
-                            {
-                                type:       "error",
-                                location:   "page",
-                                message:    request,
-                                unsafe:     false
-                            }
-                        ]);
 
-                    }
-                }, 
-                error: function(pjqXHR, pTextStatus, pErrorThrown) {
-                    alert("error: "+pErrorThrown);       
-                },
-                dataType: "text",
-                async: false                         
-            }
-        ); 
+	if ($(this).val() == 0){
+		apex.server.process(
+			'ANSWER_YES',
+			{
+				x01: $(this).prop('name')
+			},
+			{
+				success: function (pData)
+				{
+					//Your code here
+				},
+				dataType: "text"
+			});
+	} else {
+		apex.server.process(
+			'ANSWER_NO',
+			{
+				x01: $(this).prop('name')
+			},
+			{
+				success: function (pData)
+				{
+					//Your code here
+				},
+				dataType: "text"
+			});
     };
 });
