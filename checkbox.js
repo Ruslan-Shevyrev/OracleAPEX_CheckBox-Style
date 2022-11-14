@@ -1,6 +1,6 @@
 $('input[type="radio"]').click(function(){
 
-	if ($(this).val() == 0){ 
+	if ($(this).val() == 0){
 		apex.server.process(
 			'ANSWER_YES',
 			{
