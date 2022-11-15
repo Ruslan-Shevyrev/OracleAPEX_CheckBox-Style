@@ -87,15 +87,19 @@
 }
 
 @media all and (max-width: 500px) {
+	
 	.audit-block-row__item-radio-block {
-	flex-direction: column;
-    }
-    .audit-block-row__item-radio {
+		flex-direction: column;
+	}
+	
+	.audit-block-row__item-radio {
         min-width: 82px;
     }
+	
     .audit-block-row__item-radio-block>.audit-block-row__radio_false span {
         border-right: 1px solid #d2d2d2;
     }
+	
     .audit-block-row__item-radio-block>.audit-block-row__radio_false {
         margin-right: 0px;
         margin-bottom: 10px;
