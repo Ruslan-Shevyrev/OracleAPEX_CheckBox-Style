@@ -1,8 +1,8 @@
 .audit-block-row {
-    display: flex;
-    padding: 10px;
-    border-bottom: 1px #d2d2d2 solid;
-    align-items: center;
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px #d2d2d2 solid;
+	align-items: center;
     transition: .3s;
     position: relative;
     overflow: hidden;
