@@ -75,20 +75,20 @@
 
 .audit-block-row__radio-invalid_false:checked+input+.audit-block-row .audit-block-row__radio_false span {
 	background: #ffc5c5;
-    border: 1px #ffc5c5 solid;
+	border: 1px #ffc5c5 solid;
 }
 
 .audit-block-row__radio-invalid_true:checked+.audit-block-row {
-    background: #f9f9f9;
+	background: #f9f9f9;
 }
 
 .audit-block-row__radio-invalid_false:checked+input+.audit-block-row {
-    background: #f9f9f9;
+	background: #f9f9f9;
 }
 
 @media all and (max-width: 500px) {
-    .audit-block-row__item-radio-block {
-        flex-direction: column;
+	.audit-block-row__item-radio-block {
+	flex-direction: column;
     }
     .audit-block-row__item-radio {
         min-width: 82px;
