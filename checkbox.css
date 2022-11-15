@@ -63,18 +63,18 @@
 
 .audit-block-row__radio-invalid_true,
 .audit-block-row__radio-invalid_false {
-    position: absolute;
-    left: -9999px;
+	position: absolute;
+	left: -9999px;
 }
 
 .audit-block-row__radio-invalid_true:checked+.audit-block-row .audit-block-row__radio_true span {
-    background: #31b3b0;
-    border: 1px #31b3b0 solid;
-    color: #ffffff;
+	background: #31b3b0;
+	border: 1px #31b3b0 solid;
+		color: #ffffff;
 }
 
 .audit-block-row__radio-invalid_false:checked+input+.audit-block-row .audit-block-row__radio_false span {
-    background: #ffc5c5;
+	background: #ffc5c5;
     border: 1px #ffc5c5 solid;
 }
 
