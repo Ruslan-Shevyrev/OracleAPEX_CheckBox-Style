@@ -6,7 +6,7 @@ $( document ).ready(function() {
 		console.log($(this).prop('name')+' NO');
 	} else {
 		console.log($(this).prop('name')+' YES');
-    };
+	};
 });
 	
 });
