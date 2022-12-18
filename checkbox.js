@@ -26,5 +26,5 @@ $('input[type="radio"]').click(function(){
 				},
 				dataType: "text"
 			});
-    };
+	};
 });
