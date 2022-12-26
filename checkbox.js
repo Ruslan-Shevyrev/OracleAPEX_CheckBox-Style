@@ -14,7 +14,7 @@ $('input[type="radio"]').click(function(){
 				dataType: "text"
 			});
 	} else {
-		apex.server.process( 
+		apex.server.process(
 			'ANSWER_NO',
 			{
 				x01: $(this).prop('name')
