@@ -16,7 +16,7 @@ $('input[type="radio"]').click(function(){
 	} else {
 		apex.server.process(
 			'ANSWER_NO',
-			{ 
+			{
 				x01: $(this).prop('name')
 			},
 			{
