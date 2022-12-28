@@ -25,6 +25,6 @@ $('input[type="radio"]').click(function(){
 					//Your code here
 				},
 				dataType: "text"
-			}); 
+			});
 	};
 });
